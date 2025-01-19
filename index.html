@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>MyProfile</title>
+    <meta name="description" content="私のプロフィール">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  </head>
+
+  <body>
+    <header>
+      <div id="header">
+        <h1>
+          <a id="headertitle" href="index.html">My Profile</a>
+        </h1>
+
+        <nav class="nav">
+          <ul>
+            <li><a class="nav-content" href="#about">About</a></li>
+            <li><a class="nav-content" href="#works">Works</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section id="main">
+          <div id="main-visual">
+            <img class="mainImg" src="images/main.png" alt="カメラに写真">
+            <img class="mainImg" src="images/main2.png" alt="複数機材">
+            <img class="mainImg" src="images/main3.png" alt="設置されたカメラ">
+          </div>
+        </section>
+
+        <section id="about" class="fadeout">
+          <h2 class="index-h2">About</h2>
+          <div id="about-flex">
+            <div id="about-image">
+              <img src="images/about.png" alt="自身の写真">
+            </div>
+            <div id="about-message">
+              <span id="name">Kazuki Asajina</span>
+              <ul>
+                <li>25歳 長野県佐久市出身</li>
+                <li>ソフトウェア業界でマーケティングに従事</li>
+                <li>趣味はカメラ、愛機はCanon</li>
+                <li>自然を撮影するのが好きで、海や山によく行く</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="works" class="fadeout">
+          <h2 class="index-h2">Works</h2>
+          <div id="works-flex">
+            <div class="works-image">
+              <img class="workimage" src="images/works1.png" alt="風景１">
+              <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した1枚</p>
+            </div>
+
+            <div class="works-image">
+              <img class="workimage" src="images/works2.png" alt="風景２">
+              <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+            </div>
+
+            <div class="works-image">
+              <img class="workimage" src="images/works3.png" alt="風景３">
+              <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+            </div>
+
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div id="footer">
+        <p id="copyright">&copy;MyProfile. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a href="#" id="top">TOP</a>
+
+    <div id="modal">
+      <img id="modalimg" src="" alt="">
+      <span id="close">✖</span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
